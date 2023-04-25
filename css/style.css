@@ -1,0 +1,50 @@
+
+@font-face{
+	font-family: chalk;
+	font-size: 45px;
+	src: url('../fonts/BureeChalkRegular-oworB.otf') format('opentype');
+}
+
+.page-wrapper {
+	background-image: linear-gradient(rgb(215, 213, 239), rgb(244, 151, 247));
+}
+
+.logo-container {
+	max-height: 80px;
+	max-width: 80px;
+	border-radius: 999999px;
+}
+
+.navbar {
+	flex-wrap: unset;
+	box-shadow: 0 0 5px 1px rgb(222, 191, 162);
+	padding: 5px;
+	background-color: rgb(247, 247, 255);
+}
+
+h1 {
+	font-family: 'chalk', sans-serif;
+	padding: unset;
+	margin: unset;
+	font-size: 57px;
+	line-height: unset;
+	position: relative;
+	top: 20px;
+}
+
+.menu {
+	max-width: 100vh;
+	align-content: space-between;
+	justify-content: space-between;
+	display: grid;
+	gap: 36px 18px;
+	box-shadow: inset 0 0 5px 1px rgb(222, 191, 162);
+	border: 12px solid rgba(153, 102, 55, 0.97);
+	background-color: rgba(25, 29, 31, 0.77);
+	border-radius: 5px;
+	grid-template-columns: repeat(2, 1fr);
+	color: #ffffff;
+	padding: 10px;
+	margin: 20px;
+	min-height: 750px;
+}
